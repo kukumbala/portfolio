@@ -45,10 +45,10 @@ a:hover {
 }
 
 span {
-  padding: 20px 0 12px 0;
   display: block;
+  padding: 20px 0 12px 0;
 }
-li {
+.ingredient li {
   border-bottom: 1px dashed #67d5d2;
 }
 .splash p {
@@ -145,6 +145,19 @@ li {
 .column {
   padding: 10px 0 0 20px;
 }
+.heading {
+  color: #662eed;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 4px;
+}
+.about-section .information {
+  font-size: 24px;
+  padding-bottom: 34px;
+}
+.contact-info {
+  padding: 50px 0 15px 28px;
+}
 @media (max-width: 991px) {
   .about-text h2 {
     text-align: center;
@@ -195,6 +208,12 @@ li {
   }
 }
 @media (max-width: 560px) {
+  .about-section img {
+    padding: 20px;
+  }
+  .about-section .information {
+    font-size: 20px;
+  }
   .collection-container h3 {
     text-align: center;
     font-size: 28px;
