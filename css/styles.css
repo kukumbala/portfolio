@@ -66,7 +66,10 @@ nav li {
   font-weight: 700;
   margin-left: 15px;
 }
-
+footer {
+  background-color: #f9f7fe;
+  padding: 40px 20px;
+}
 .logo {
   max-width: 150px;
 }
@@ -92,11 +95,9 @@ nav li {
   padding: 46px 0;
 }
 .recipies-collection {
-  padding: 100px 0;
+  padding: 100px 0 0;
 }
-.recipies-collection img {
-  border-radius: 12px;
-}
+
 .about-section {
   padding: 120px 0px 100px 0;
 }
@@ -117,6 +118,9 @@ nav li {
 .favorite-section p {
   font-size: 16px;
   line-height: 30px;
+}
+.favorite-section div {
+  padding-bottom: 50px;
 }
 .favorite-dish {
   padding: 0 20px;
@@ -180,7 +184,23 @@ nav li {
 .contact-info {
   padding: 50px 0 15px 28px;
 }
+.copywright {
+  font-size: 16px;
+  line-height: 1.1;
+  font-family: Roboto, sans-serif;
+}
+
 @media (max-width: 991px) {
+  footer {
+    text-align: center;
+  }
+  .footer-logo {
+    display: block;
+    margin: 0 auto;
+  }
+  footer i {
+    padding: 15px 0;
+  }
   .about-text h2 {
     text-align: center;
   }
@@ -202,7 +222,9 @@ nav li {
   h1 {
     font-size: 48px;
   }
-
+  .favorite-section h5 {
+    text-align: center;
+  }
   h2 {
     font-size: 40px;
   }
@@ -228,6 +250,9 @@ nav li {
   .column {
     padding: 16px 0 0 0;
   }
+  .favorite-section div {
+    padding-bottom: 20px;
+  }
 }
 @media (max-width: 560px) {
   nav ul {
@@ -248,16 +273,13 @@ nav li {
     text-align: center;
     padding: 20px 8px 42px 8px;
   }
-  h5 {
-    text-align: center;
-  }
+
   .pe-2 {
     padding-left: 8px;
   }
   .ps-2 {
     padding-right: 8px;
   }
-
   .splash p {
     font-size: 20px;
     line-height: 1.3;
