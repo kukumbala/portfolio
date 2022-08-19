@@ -192,6 +192,7 @@ footer {
 .github {
   text-align: center;
   line-height: 1.1;
+  padding-top: 20px;
 }
 @media (max-width: 991px) {
   footer {
