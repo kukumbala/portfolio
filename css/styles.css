@@ -189,7 +189,10 @@ footer {
   line-height: 1.1;
   font-family: Roboto, sans-serif;
 }
-
+.github {
+  justify-content: left;
+  line-height: 1.1;
+}
 @media (max-width: 991px) {
   footer {
     text-align: center;
